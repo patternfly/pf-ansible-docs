@@ -1,20 +1,23 @@
 module.exports = {
-  '/design-guidelines': {
+  '/extensions/pf-ansible-docs/design-guidelines': {
     id: "pf-ansible-docs",
     title: "pf-ansible-docs",
     toc: [{"text":"Header"},[{"text":"Sub-header"}]],
     section: "extensions",
+    subsection: "",
     source: "design-guidelines",
-    Component: () => import(/* webpackChunkName: "design-guidelines/index" */ './design-guidelines')
+    tabName: null,
+    Component: () => import(/* webpackChunkName: "extensions/pf-ansible-docs/design-guidelines/index" */ './extensions/pf-ansible-docs/design-guidelines')
   },
-  '/react': {
+  '/extensions/pf-ansible-docs/react': {
     id: "pf-ansible-docs",
     title: "pf-ansible-docs",
-    toc: [{"text":"Basic usage"},[{"text":"Example"},{"text":"Fullscreen example"}]],
+    toc: [{"text":"Basic usage"},[{"text":"Example"}]],
     examples: ["Example"],
-    fullscreenExamples: ["Fullscreen example"],
     section: "extensions",
+    subsection: "",
     source: "react",
-    Component: () => import(/* webpackChunkName: "react/index" */ './react')
+    tabName: null,
+    Component: () => import(/* webpackChunkName: "extensions/pf-ansible-docs/react/index" */ './extensions/pf-ansible-docs/react')
   }
 };

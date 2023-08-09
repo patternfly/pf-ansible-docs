@@ -15,6 +15,11 @@
     "@jridgewell/gen-mapping" "^0.1.0"
     "@jridgewell/trace-mapping" "^0.3.9"
 
+"@ansible/ansible-ui-framework@^2.4.292":
+  version "2.4.292"
+  resolved "https://registry.yarnpkg.com/@ansible/ansible-ui-framework/-/ansible-ui-framework-2.4.292.tgz#37fc4a4725f9d6d6ed7aa55646115eb5545fcccf"
+  integrity sha512-l/qqD8+QeifL/G1f9PLHGMUlV2aY987+qQjBHY5PvW2tMmj9t5WgfHtj5R+G6acNmecivL9aoLrKo5V62D9onQ==
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.10.4", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.7", "@babel/code-frame@^7.18.6":
   version "7.18.6"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.18.6.tgz#3b25d38c89600baa2dcc219edfa88a74eb2c427a"
@@ -1599,10 +1604,10 @@
     acorn-static-class-features "^1.0.0"
     astring "^1.7.5"
 
-"@patternfly/documentation-framework@^1.8.1":
-  version "1.10.1"
-  resolved "https://registry.yarnpkg.com/@patternfly/documentation-framework/-/documentation-framework-1.10.1.tgz#f152b6e7d08cfb2336afe2159bd5731b5a45265e"
-  integrity sha512-IPV1LFksuED1Hqt2oeNdEEZnGN2RDjJKoEtHY/umR3bURb8WrQftKY0rZgPdmkPQwbynrvGMqr6lmkqfK1y5ew==
+"@patternfly/documentation-framework@^1.10.1":
+  version "1.10.13"
+  resolved "https://registry.yarnpkg.com/@patternfly/documentation-framework/-/documentation-framework-1.10.13.tgz#5a5a885ac7f3f330df463e0e65db49c1249ec7f7"
+  integrity sha512-fnWQ7t6PzJPzUM1hE3HbLjvpPS73M62C1vQ+toJv2QiQnIo7suNpgIvnc1siAg18mGeZ2rCy1+tnuij4M1J/Ig==
   dependencies:
     "@babel/core" "7.18.2"
     "@babel/plugin-proposal-class-properties" "7.17.12"
@@ -1750,6 +1755,11 @@
     invariant "^2.2.3"
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
+
+"@remix-run/router@1.7.2":
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.7.2.tgz#cba1cf0a04bc04cb66027c51fa600e9cbc388bc8"
+  integrity sha512-7Lcn7IqGMV+vizMPoEl5F0XDshcdDYtMI6uJLQdQz5CfZAwy3vvGKYSUk789qndt5dEC4HfSjviSYlSoHGL2+A==
 
 "@sinclair/typebox@^0.24.1":
   version "0.24.51"
@@ -9602,6 +9612,21 @@ react-monaco-editor@^0.51.0:
   integrity sha512-6jx1V8p6gHVKJHFaTvicOtmlhFjOJhekobeNd92ZAo7F5UvAin1cF7bxWLCKgtxClYZ7CB3Ar284Kpbhj22FpQ==
   dependencies:
     prop-types "^15.8.1"
+
+react-router-dom@6.14.2:
+  version "6.14.2"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.14.2.tgz#88f520118b91aa60233bd08dbd3fdcaea3a68488"
+  integrity sha512-5pWX0jdKR48XFZBuJqHosX3AAHjRAzygouMTyimnBPOLdY3WjzUSKhus2FVMihUFWzeLebDgr4r8UeQFAct7Bg==
+  dependencies:
+    "@remix-run/router" "1.7.2"
+    react-router "6.14.2"
+
+react-router@6.14.2:
+  version "6.14.2"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.14.2.tgz#1f60994d8c369de7b8ba7a78d8f7ec23df76b300"
+  integrity sha512-09Zss2dE2z+T1D03IheqAFtK4UzQyX8nFPWx6jkwdYzGLXd5ie06A6ezS2fO6zJfEb/SpG6UocN2O1hfD+2urQ==
+  dependencies:
+    "@remix-run/router" "1.7.2"
 
 react-ssr-prepass@1.2.1:
   version "1.2.1"

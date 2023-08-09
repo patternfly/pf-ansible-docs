@@ -9,21 +9,15 @@ id: pf-ansible-docs
 source: react
 # If you use typescript, the name of the interface to display props for
 # These are found through the sourceProps function provided in patternfly-docs.source.js
-propComponents: ['ExtendedButton']
+propComponents: ['PageLayoutProps']
 ---
 
-import { ExtendedButton } from "@patternfly/pf-ansible-docs";
+import { PageLayout, PageLayoutProps } from "@patternfly/pf-ansible-docs";
 
 ## Basic usage
 
 ### Example
 
 ```js file="./Basic.tsx"
-
-```
-
-### Fullscreen example
-
-```js file="./Basic.tsx" isFullscreen
 
 ```
